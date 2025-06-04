@@ -17,81 +17,105 @@ function App() {
   const menuItems = {
     starters: [
       { 
-        name: "Oxygen Bruschetta", 
-        description: "Tomato, basil, garlic on toasted bread", 
-        price: "$6.50",
-        image: "https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Supa", 
+        description: "Supë tradicionale me mish viçi dhe perime të freskëta", 
+        price: "4.50€",
+        image: "/supa.jpg"
       },
       { 
-        name: "Warm Bread Basket", 
-        description: "Freshly baked with herb-infused olive oil", 
-        price: "$5.00",
-        image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Paragjellë me mish të tymosur", 
+        description: "Mish i tymosur me djathë dhe speca", 
+        price: "6.00€",
+        image: "/paragjellamemishtetymosur.jpg"
       },
       { 
-        name: "Crispy Calamari", 
-        description: "With lemon aioli and spicy marinara", 
-        price: "$8.00",
-        image: "https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Paragjella", 
+        description: "Chiken fingers dhe djathra", 
+        price: "8.00€",
+        image: "/paragjella.jpg"
+      },
+      { 
+        name: "Samun me Sugjuk", 
+        description: "Samuni me sugjuk", 
+        price: "8.00€",
+        image: "/samunmesugjukimbyllur.jpg"
       }
     ],
     mains: [
       { 
-        name: "Truffle Oxygen Pizza", 
-        description: "Mozzarella, wild mushrooms, truffle oil", 
-        price: "$14.00",
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Pica Vegjetariane", 
+        description: "Mozzarella, kërpudha, speca, domate", 
+        price: "14.00€",
+        image: "/picavegjetariane.jpg"
       },
       { 
-        name: "Seafood Pasta", 
-        description: "Fresh catch with garlic white wine sauce", 
-        price: "$16.00",
-        image: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Pica 4 Stinët", 
+        description: "kërpudha, kackavall, proshutë, ullinjë, origano, domate", 
+        price: "16.00€",
+        image: "/picakaterstinet.jpg"
       },
       { 
-        name: "Herb-Crusted Salmon", 
-        description: "With seasonal vegetables and lemon butter", 
-        price: "$18.00",
-        image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Biftek", 
+        description: "patate të fërguara me oriz dhe perime të fërguara", 
+        price: "18.00€",
+        image: "/biftek.jpg"
+      },
+      { 
+        name: "Peshk Koc", 
+        description: "me oriz dhe perime të fërguara", 
+        price: "18.00€",
+        image: "/peshkkosc.jpg"
+      },
+      { 
+        name: "Skënderbeg Pule", 
+        description: "me oriz dhe perime të fërguara", 
+        price: "18.00€",
+        image: "/skenderbeg.jpg"
+      },
+      { 
+        name: "Sallatë Pule", 
+        description: "me oriz dhe perime të fërguara", 
+        price: "18.00€",
+        image: "/sallatepule.jpg"
       }
     ],
     desserts: [
       { 
-        name: "Molten Chocolate Cake", 
-        description: "With vanilla bean ice cream", 
-        price: "$7.50",
-        image: "https://images.unsplash.com/photo-1571115177098-24ec42ed204d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Llokuma", 
+        description: "Ëmbëlsirë tradicionale me sherbet", 
+        price: "3.50€",
+        image: "/llokuma.jpg"
       },
       { 
-        name: "Honey Lavender Panna Cotta", 
-        description: "With fresh berries", 
-        price: "$6.50",
-        image: "https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Petulla me mjaltë", 
+        description: "Petulla të freskëta të serviruara me mjaltë", 
+        price: "4.00€",
+        image: "/samunmesugjukimbyllur.jpg"
       },
       { 
-        name: "Citrus Olive Oil Cake", 
-        description: "With whipped mascarpone", 
-        price: "$6.00",
-        image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+        name: "Tave me qumësht", 
+        description: "Ëmbëlsirë me qumësht, vezë dhe vanilje", 
+        price: "3.80€",
+        image: "/mengjesmeveze.jpg"
       }
     ],
     drinks: [
       { 
-        name: "Signature Oxygen Cocktail", 
-        description: "Gin, elderflower, cucumber, mint", 
-        price: "$9.00",
+        name: "Raki", 
+        description: "Raki tradicionale shqiptare", 
+        price: "3.00€",
         image: "https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       },
       { 
-        name: "Organic Wine Selection", 
-        description: "Ask server for today's selection", 
-        price: "$8.00+",
+        name: "Verë e kuqe", 
+        description: "Verë e kuqe nga vreshtat tona", 
+        price: "4.00€",
         image: "https://images.unsplash.com/photo-1554866585-cd94860890b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       },
       { 
-        name: "Artisanal Coffee & Tea", 
-        description: "Locally roasted and sourced", 
-        price: "$4.00",
+        name: "Kafe turke", 
+        description: "Kafe e përgatitur në mënyrë tradicionale", 
+        price: "1.50€",
         image: "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
       }
     ]
@@ -107,7 +131,7 @@ function App() {
       <header className={`hero ${isScrolled ? 'scrolled' : ''}`}>
         <div className="hero-content">
           <h1 className="restaurant-name">OXYGEN</h1>
-          <p className="tagline">Breathe in the flavor</p>
+          <p className="tagline">Shijoni kuzhinën autentike shqiptare</p>
           <div className="scroll-indicator">
             <span className="scroll-arrow">↓</span>
           </div>
@@ -116,11 +140,11 @@ function App() {
 
       {/* Navigation */}
       <nav className={`menu-nav ${isScrolled ? 'sticky' : ''}`}>
-        <button onClick={() => setActiveCategory('all')} className={activeCategory === 'all' ? 'active' : ''}>All Menu</button>
-        <button onClick={() => setActiveCategory('starters')} className={activeCategory === 'starters' ? 'active' : ''}>Starters</button>
-        <button onClick={() => setActiveCategory('mains')} className={activeCategory === 'mains' ? 'active' : ''}>Mains</button>
-        <button onClick={() => setActiveCategory('desserts')} className={activeCategory === 'desserts' ? 'active' : ''}>Desserts</button>
-        <button onClick={() => setActiveCategory('drinks')} className={activeCategory === 'drinks' ? 'active' : ''}>Drinks</button>
+        <button onClick={() => setActiveCategory('all')} className={activeCategory === 'all' ? 'active' : ''}>E gjithë menuja</button>
+        <button onClick={() => setActiveCategory('starters')} className={activeCategory === 'starters' ? 'active' : ''}>Paragjellë</button>
+        <button onClick={() => setActiveCategory('mains')} className={activeCategory === 'mains' ? 'active' : ''}>Pjatë kryesore</button>
+        <button onClick={() => setActiveCategory('desserts')} className={activeCategory === 'desserts' ? 'active' : ''}>Ëmbëlsira</button>
+        <button onClick={() => setActiveCategory('drinks')} className={activeCategory === 'drinks' ? 'active' : ''}>Pije</button>
       </nav>
 
       {/* Menu Sections */}
@@ -128,12 +152,15 @@ function App() {
         {(activeCategory === 'all' || activeCategory === 'starters') && (
           <section className="menu-section fade-in">
             <div className="section-header">
-              <h2>STARTERS</h2>
+              <h2>PARAGJELLË</h2>
               <div className="divider"></div>
             </div>
             <div className="menu-items">
               {menuItems.starters.map((item, index) => (
                 <div key={index} className="menu-item" onClick={() => setSelectedItem(item)}>
+                  <div className="item-preview">
+                    <img src={item.image} alt={item.name} className="thumbnail" />
+                  </div>
                   <div className="item-details">
                     <h3>{item.name}</h3>
                     <p className="description">{item.description}</p>
@@ -148,12 +175,15 @@ function App() {
         {(activeCategory === 'all' || activeCategory === 'mains') && (
           <section className="menu-section fade-in">
             <div className="section-header">
-              <h2>MAIN COURSES</h2>
+              <h2>PJATË KRYESORE</h2>
               <div className="divider"></div>
             </div>
             <div className="menu-items">
               {menuItems.mains.map((item, index) => (
                 <div key={index} className="menu-item" onClick={() => setSelectedItem(item)}>
+                  <div className="item-preview">
+                    <img src={item.image} alt={item.name} className="thumbnail" />
+                  </div>
                   <div className="item-details">
                     <h3>{item.name}</h3>
                     <p className="description">{item.description}</p>
@@ -168,12 +198,15 @@ function App() {
         {(activeCategory === 'all' || activeCategory === 'desserts') && (
           <section className="menu-section fade-in">
             <div className="section-header">
-              <h2>DESSERTS</h2>
+              <h2>ËMBËLSIRA</h2>
               <div className="divider"></div>
             </div>
             <div className="menu-items">
               {menuItems.desserts.map((item, index) => (
                 <div key={index} className="menu-item" onClick={() => setSelectedItem(item)}>
+                  <div className="item-preview">
+                    <img src={item.image} alt={item.name} className="thumbnail" />
+                  </div>
                   <div className="item-details">
                     <h3>{item.name}</h3>
                     <p className="description">{item.description}</p>
@@ -188,12 +221,15 @@ function App() {
         {(activeCategory === 'all' || activeCategory === 'drinks') && (
           <section className="menu-section fade-in">
             <div className="section-header">
-              <h2>DRINKS</h2>
+              <h2>PIJE</h2>
               <div className="divider"></div>
             </div>
             <div className="menu-items">
               {menuItems.drinks.map((item, index) => (
                 <div key={index} className="menu-item" onClick={() => setSelectedItem(item)}>
+                  <div className="item-preview">
+                    <img src={item.image} alt={item.name} className="thumbnail" />
+                  </div>
                   <div className="item-details">
                     <h3>{item.name}</h3>
                     <p className="description">{item.description}</p>
@@ -227,13 +263,13 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <div className="contact-info">
-            <h3>OXYGEN RESTAURANT</h3>
-            <p>123 Fresh Air Boulevard</p>
-            <p>Reservations: (555) 123-4567</p>
-            <p>Open: Tue-Sun, 5pm-11pm</p>
+            <h3>OXYGEN</h3>
+            <p>Rruga e Cabratit, Gjakovë</p>
+            <p>Rezervime: 7</p>
+            <p>E hapur: E hëne - E dielë, 08:00 - 23:00</p>
           </div>
           <div className="social-links">
-            <span>Follow us:</span>
+            <span>Na ndiqni:</span>
             <div className="social-icons">
               <a href="#instagram">📷</a>
               <a href="#facebook">👍</a>
