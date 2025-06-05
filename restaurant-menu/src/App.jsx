@@ -26,19 +26,19 @@ function App() {
         name: "Paragjellë me mish të tymosur", 
         description: "Mish i tymosur me djathë dhe speca", 
         price: "6.00€",
-        image: "/paragjellamemishtetymosur.jpg"
+        image: "paragjellamemishtetymosur.jpg"
       },
       { 
         name: "Paragjella", 
         description: "Chiken fingers dhe djathra", 
         price: "8.00€",
-        image: "/paragjella.jpg"
+        image: "paragjella.jpg"
       },
       { 
         name: "Samun me Sugjuk", 
         description: "Samuni me sugjuk", 
         price: "8.00€",
-        image: "/samunmesugjukimbyllur.jpg"
+        image: "samunmesugjukimbyllur.jpg"
       }
     ],
     mains: [
@@ -46,37 +46,37 @@ function App() {
         name: "Pica Vegjetariane", 
         description: "Mozzarella, kërpudha, speca, domate", 
         price: "14.00€",
-        image: "/picavegjetariane.jpg"
+        image: "picavegjetariane.jpg"
       },
       { 
         name: "Pica 4 Stinët", 
         description: "kërpudha, kackavall, proshutë, ullinjë, origano, domate", 
         price: "16.00€",
-        image: "/picakaterstinet.jpg"
+        image: "picakaterstinet.jpg"
       },
       { 
         name: "Biftek", 
         description: "patate të fërguara me oriz dhe perime të fërguara", 
         price: "18.00€",
-        image: "/biftek.jpg"
+        image: "biftek.jpg"
       },
       { 
         name: "Peshk Koc", 
         description: "me oriz dhe perime të fërguara", 
         price: "18.00€",
-        image: "/peshkkosc.jpg"
+        image: "peshkkosc.jpg"
       },
       { 
         name: "Skënderbeg Pule", 
         description: "me oriz dhe perime të fërguara", 
         price: "18.00€",
-        image: "/skenderbeg.jpg"
+        image: "skenderbeg.jpg"
       },
       { 
         name: "Sallatë Pule", 
         description: "me oriz dhe perime të fërguara", 
         price: "18.00€",
-        image: "/sallatepule.jpg"
+        image: "sallatepule.jpg"
       }
     ],
     desserts: [
@@ -84,19 +84,19 @@ function App() {
         name: "Llokuma", 
         description: "Ëmbëlsirë tradicionale me sherbet", 
         price: "3.50€",
-        image: "/llokuma.jpg"
+        image: "llokuma.jpg"
       },
       { 
         name: "Petulla me mjaltë", 
         description: "Petulla të freskëta të serviruara me mjaltë", 
         price: "4.00€",
-        image: "/samunmesugjukimbyllur.jpg"
+        image: "samunmesugjukimbyllur.jpg"
       },
       { 
         name: "Tave me qumësht", 
         description: "Ëmbëlsirë me qumësht, vezë dhe vanilje", 
         price: "3.80€",
-        image: "/mengjesmeveze.jpg"
+        image: "mengjesmeveze.jpg"
       }
     ],
     drinks: [
