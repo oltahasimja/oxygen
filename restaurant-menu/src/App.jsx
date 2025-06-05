@@ -20,7 +20,7 @@ function App() {
         name: "Supa", 
         description: "Supë tradicionale me mish viçi dhe perime të freskëta", 
         price: "4.50€",
-        image: "/supa.jpg"
+        image: "supa.jpg"
       },
       { 
         name: "Paragjellë me mish të tymosur", 
